@@ -5,21 +5,21 @@ An application which lists important prayers, bible links and other important in
 
 [Click here to download the app/ check out the link in app-release.apk!](https://github.com/adriel1997/holynamechurch/blob/main/app-release.apk)
  
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/openingPage.jpg)
+<img src="./openingPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: Loading page 
 
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/menuPage.jpg)
+<img src="./menuPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: Menu page 
 
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/prayerPage.jpg)
+<img src="./prayerPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: Prayer page 
 
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/aboutUsPage.jpg)
+<img src="./aboutUsPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: About Us page 
 
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/contactUsPage.jpg)
+<img src="./contactUsPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: Contact Us page 
 
-![Alt Text](https://github.com/adriel1997/Twitter-Sentiment-Analysis/blob/master/LinkPage.jpg)
+<img src="./linksPage.jpg" alt="alt text" width="300" height="500">
 #### Fig: Link page 
 
