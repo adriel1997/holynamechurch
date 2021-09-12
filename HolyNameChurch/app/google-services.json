@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "3690306279",
+    "firebase_url": "https://holy-name-church.firebaseio.com",
+    "project_id": "holy-name-church",
+    "storage_bucket": "holy-name-church.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3690306279:android:381faf8afb4c4a69",
+        "android_client_info": {
+          "package_name": "com.example.adriealle.holynamechurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3690306279-q84dm67s8tk59gfh42vcevr1hqmq37og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adriealle.holynamechurch",
+            "certificate_hash": "2aed3de0e47918920a5e12b11a5013c35d6fd3f0"
+          }
+        },
+        {
+          "client_id": "3690306279-jtnap3mcnohi837lv5tto6nmrl1gdnia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4o0CsuvZ6dvg5S65Qv3qZSqcJAah4mJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3690306279-jtnap3mcnohi837lv5tto6nmrl1gdnia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3690306279:android:be3a53b041ca6910",
+        "android_client_info": {
+          "package_name": "com.hnc.hnc.holynamechurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3690306279-a7iuue1jp9sjgf69kj9v6d3lj89ntged.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hnc.hnc.holynamechurch",
+            "certificate_hash": "2aed3de0e47918920a5e12b11a5013c35d6fd3f0"
+          }
+        },
+        {
+          "client_id": "3690306279-jtnap3mcnohi837lv5tto6nmrl1gdnia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4o0CsuvZ6dvg5S65Qv3qZSqcJAah4mJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3690306279-jtnap3mcnohi837lv5tto6nmrl1gdnia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

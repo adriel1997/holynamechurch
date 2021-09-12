@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#722f37"
+    tools:context="com.hnc.hnc.holynamechurch.contactpage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Holy Name Church\n"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/youthteam"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="\nSocieties\n\nParish Council\n
+The parish council is a representative body of the parish community to assist Parish priest in the Pastoral planning and carry out the Mission of the Parish. It represents its character, unity and faith of the community.
+
+\n\nSociety of St. Vincent De Paul\n
+The Society of St. Vincent De Paul is an international Catholic organization for lay people, founded in Paris in 1833 by Frederic Ozanam and his companions, placed under the patronage of St. Vincent De Paul. Work of the society, through a person contact, encompasses every form of aid that alleviates suffering and promotes the dignity and integrity of mankind.\n
+
+\nYouth Ministry (R.E.L.A.Y)\n
+The Youth ministry plays a major role in the life of the parish. The unique gifts of the young people are to be developed for the good of the community and for the development of the individuals concerned. The youth group takes an active part in the activities of the church especially during festivals and similar occasions.\n\nContact\nHOLY NAME CHURCH
+Office Bearers:
+Parish Priest Fr. Joseph P. Henry
+Assistant Priest and Director ICYM: Fr. Jais
+
+Address: RB – Site-2, Sector-55, Gurgaon – 122003\n
+Phone: 0124-2573548\n
+Email: holynamechurch.gurgaon@gmail.com"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ListView
+                android:id="@+id/contactlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="\n\nConnect\n"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <ListView
+                android:id="@+id/maplist"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Developed by \nR.E.L.A.Y -Youth Society HNC\n Adriealle Dsouza (Developer)\n Linsie Paul (Content Curator)\n"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

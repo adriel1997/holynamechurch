@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hnc.hnc.holynamechurch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <meta-data
+    android:name="com.google.firebase.messaging.default_notification_color"
+    android:resource="@color/colorAccent" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.hnc.hnc.holynamechurch.loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.hnc.hnc.holynamechurch.FirebaseMessagingServices">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.hnc.hnc.holynamechurch.prayerlist" />
+        <activity android:name="com.hnc.hnc.holynamechurch.baseactivity" />
+        <activity android:name="com.hnc.hnc.holynamechurch.web" />
+        <activity android:name="com.hnc.hnc.holynamechurch.contactpage" />
+        <activity android:name="com.hnc.hnc.holynamechurch.externallinkspage" />
+        <activity android:name="com.hnc.hnc.holynamechurch.Formpage" />
+        <activity android:name="com.hnc.hnc.holynamechurch.notification" />
+        <activity android:name="com.hnc.hnc.holynamechurch.faqnsocial" />
+        <activity android:name="com.hnc.hnc.holynamechurch.shrines" />
+        <activity android:name="com.hnc.hnc.holynamechurch.institutions" />
+        <activity android:name="com.hnc.hnc.holynamechurch.donate" />
+        <activity android:name="com.hnc.hnc.holynamechurch.Home"></activity>
+    </application>
+
+</manifest>

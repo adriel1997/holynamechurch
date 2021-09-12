@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Holy Name Church</string>
+    <string-array name="category">
+        <item>Marriage Councel</item>
+        <item>Confession</item>
+        <item>Mass Offering</item>
+        <item>Baptism</item>
+        <item>Funeral Arangements</item>
+    </string-array>
+
+</resources>

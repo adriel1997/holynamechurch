@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="#722f37"
+    tools:context="com.hnc.hnc.holynamechurch.prayerlist">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Prayers"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+			
+            <ListView
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:id="@+id/applist"
+                />
+				</LinearLayout>
+				</ScrollView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Novena"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/novenalist"
+                />
+				  </LinearLayout>
+    </ScrollView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Rosary"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="960dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/rosarylist"
+                />
+				
+				
+				  </LinearLayout>
+    </ScrollView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Confessions"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/conlist"
+                />
+				  </LinearLayout>
+    </ScrollView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Commandments"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+			
+			
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/comlis"
+                />
+				
+				  </LinearLayout>
+    </ScrollView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Stations of the cross"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/stalist"
+                />
+				
+				  </LinearLayout>
+    </ScrollView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sacraments"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+			
+			
+            <ListView
+                android:layout_height="960dp"
+                android:layout_width="match_parent"
+                android:id="@+id/saclist"
+                />
+				  </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    </ScrollView>
+
